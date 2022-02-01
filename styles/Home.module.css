@@ -1,22 +1,47 @@
 .container {
-  padding: 0 2rem;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.tilt {
+  border: none !important;
+  box-shadow: none !important;
+  margin-left: -50% !important;
+  margin-top: -40% !important;
+  width: 200vw !important;
+  height: 200vh !important;
+  background:  !important;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.linkbar {
+  background: pink;
+}
+.shooter {
+  float: left;
+  margin-right: 20px;
+}
+.main {
+  color: black !important;
+  margin-top: -300px;
+  width: 700px;
+  height: 200px;
+}
+
+.navbar {
+  display: flex;
+  width: 670px;
+  margin-top: 10px;
+  justify-content:space-between;
   align-items: center;
 }
 
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -41,9 +66,10 @@
 }
 
 .title {
+  width: 100%;
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2.8rem;
 }
 
 .title,
@@ -60,7 +86,6 @@
 .movie {
   position: relative;
   background-image: linear-gradient(90deg, #66B827, navy);
-  padding-bottom: 6px;
   background-size: 100% 5px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -85,7 +110,6 @@
 
 .card {
   margin: 1rem;
-  padding: 1.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
